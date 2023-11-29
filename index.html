@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="todo">
+        <section class="header">
+            <h1>Todo List</h1>
+            <p>Hello! I'm testing my Javascript skills with this to-do list.</p>
+        </section>
+        <section id="todo-box">
+            <!-- <button id="showFormButton">Add new task</button> -->
+            <form id="addNewTask" name="addNewTask" method="post" class="form">
+                <label for="task"></label>
+                <input type="text" placeholder="New task" id="task" name="task"><br>
+                <label for="completeTaskBy">Complete by:</label>
+                <input type="date" id="completeTaskBy" name="completeTaskBy"><br>
+                <button type="submit" form="addNewTask" id="submit" value="submit">Submit</button>
+            </form>
+            <button id="reset">Reset</button>
+            <ul class="task-ul"></ul>
+
+            <div class="completed">
+                <h3>Completed:</h3>
+                <ul class="completed-task-ul"></ul>
+            </div>
+            
+        </section>
+    </section>
+    <pre></pre>
+</body>
+</html>

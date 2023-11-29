@@ -1,0 +1,70 @@
+body {
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: 100;
+  color: #252525;
+}
+body ul {
+  margin: 0px;
+  padding: 0px;
+}
+body li {
+  list-style: none;
+}
+
+.todo {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 1000px;
+}
+.todo h1 {
+  font-family: "Permanent Marker", cursive;
+  color: #252525;
+  font-weight: 1000;
+  font-size: 3em;
+}
+.todo p {
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: 100;
+  color: #252525;
+}
+
+.header {
+  text-align: center;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+h3 {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: 100;
+}
+
+button {
+  font-family: inherit;
+}
+
+.task-ul li {
+  padding: 10px 0px;
+}
+
+.completed-task-ul {
+  text-decoration: line-through;
+  opacity: 65%;
+}
+
+.todo-box {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
